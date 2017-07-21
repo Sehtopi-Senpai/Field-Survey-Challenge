@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7BC1A8831F22BFE3002ED5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A8821F22BFE3002ED5EE /* AppDelegate.swift */; };
-		7BC1A8851F22BFE3002ED5EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A8841F22BFE3002ED5EE /* ViewController.swift */; };
 		7BC1A8881F22BFE3002ED5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC1A8861F22BFE3002ED5EE /* Main.storyboard */; };
 		7BC1A88A1F22BFE3002ED5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC1A8891F22BFE3002ED5EE /* Assets.xcassets */; };
 		7BC1A88D1F22BFE3002ED5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC1A88B1F22BFE3002ED5EE /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		7BC1A87F1F22BFE3002ED5EE /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC1A8821F22BFE3002ED5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BC1A8841F22BFE3002ED5EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7BC1A8871F22BFE3002ED5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BC1A8891F22BFE3002ED5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BC1A88C1F22BFE3002ED5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				7BC1A8821F22BFE3002ED5EE /* AppDelegate.swift */,
-				7BC1A8841F22BFE3002ED5EE /* ViewController.swift */,
 				7BC1A8861F22BFE3002ED5EE /* Main.storyboard */,
 				7BC1A8891F22BFE3002ED5EE /* Assets.xcassets */,
 				7BC1A88B1F22BFE3002ED5EE /* LaunchScreen.storyboard */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC1A8851F22BFE3002ED5EE /* ViewController.swift in Sources */,
 				7BC1A8831F22BFE3002ED5EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +503,7 @@
 				7BC1A8A91F22BFE3002ED5EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC1A8AA1F22BFE3002ED5EE /* Build configuration list for PBXNativeTarget "Field SurveyTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +512,7 @@
 				7BC1A8AC1F22BFE3002ED5EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC1A8AD1F22BFE3002ED5EE /* Build configuration list for PBXNativeTarget "Field SurveyUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +521,7 @@
 				7BC1A8AF1F22BFE3002ED5EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
