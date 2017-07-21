@@ -95,6 +95,7 @@
 		7BC1A8811F22BFE3002ED5EE /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				7BC1A8B01F22C40B002ED5EE /* Model */,
 				7BC1A8821F22BFE3002ED5EE /* AppDelegate.swift */,
 				7BC1A8861F22BFE3002ED5EE /* Main.storyboard */,
 				7BC1A8891F22BFE3002ED5EE /* Assets.xcassets */,
@@ -120,6 +121,13 @@
 				7BC1A8A41F22BFE3002ED5EE /* Info.plist */,
 			);
 			path = "Field SurveyUITests";
+			sourceTree = "<group>";
+		};
+		7BC1A8B01F22C40B002ED5EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
