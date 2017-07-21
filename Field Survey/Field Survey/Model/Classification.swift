@@ -6,7 +6,7 @@
 //  Copyright © 2017 xanda code. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum Classification: String {
     case reptile
@@ -16,4 +16,8 @@ enum Classification: String {
     case plant
     case mammal
     case fish
+    
+    var image: UIImage? {
+        return UIImage(named: self.rawValue + "Icon")
+    }
 }
