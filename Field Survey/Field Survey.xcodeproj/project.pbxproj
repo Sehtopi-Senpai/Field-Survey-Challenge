@@ -10,6 +10,7 @@
 		7B957C9C1F22C6A900AD9B1B /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B957C9B1F22C6A900AD9B1B /* Classification.swift */; };
 		7B957CA01F22C94F00AD9B1B /* Observations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B957C9F1F22C94F00AD9B1B /* Observations.swift */; };
 		7B957CA21F22CDC600AD9B1B /* AnimalObservationsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B957CA11F22CDC600AD9B1B /* AnimalObservationsJSONParser.swift */; };
+		7B957CA41F22E94600AD9B1B /* ObservationEventsJsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B957CA31F22E94600AD9B1B /* ObservationEventsJsonLoader.swift */; };
 		7BC1A8831F22BFE3002ED5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1A8821F22BFE3002ED5EE /* AppDelegate.swift */; };
 		7BC1A8881F22BFE3002ED5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC1A8861F22BFE3002ED5EE /* Main.storyboard */; };
 		7BC1A88A1F22BFE3002ED5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC1A8891F22BFE3002ED5EE /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		7B957C9B1F22C6A900AD9B1B /* Classification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 		7B957C9F1F22C94F00AD9B1B /* Observations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observations.swift; sourceTree = "<group>"; };
 		7B957CA11F22CDC600AD9B1B /* AnimalObservationsJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalObservationsJSONParser.swift; sourceTree = "<group>"; };
+		7B957CA31F22E94600AD9B1B /* ObservationEventsJsonLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationEventsJsonLoader.swift; sourceTree = "<group>"; };
 		7BC1A87F1F22BFE3002ED5EE /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC1A8821F22BFE3002ED5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BC1A8871F22BFE3002ED5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				7B957C9B1F22C6A900AD9B1B /* Classification.swift */,
 				7B957C9F1F22C94F00AD9B1B /* Observations.swift */,
 				7B957CA11F22CDC600AD9B1B /* AnimalObservationsJSONParser.swift */,
+				7B957CA31F22E94600AD9B1B /* ObservationEventsJsonLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				7BC1A8831F22BFE3002ED5EE /* AppDelegate.swift in Sources */,
 				7B957CA21F22CDC600AD9B1B /* AnimalObservationsJSONParser.swift in Sources */,
 				7B957C9C1F22C6A900AD9B1B /* Classification.swift in Sources */,
+				7B957CA41F22E94600AD9B1B /* ObservationEventsJsonLoader.swift in Sources */,
 				7B957CA01F22C94F00AD9B1B /* Observations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
