@@ -9,11 +9,31 @@
 import UIKit
 
 class ObservationEventsDetailViewController: UIViewController {
+    
+    var observation: Observation?
+    
+    var dateFormatter = DateFormatter()
+    
+    
 
+    @IBOutlet weak var observationImageView: UIImageView!
+    @IBOutlet weak var titleLable: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        dateFormatter.dateStyle = .medium
+        dateFormatter.text = Observation?.matchup
+        
+        observationImageView.image = observation.observation.image
+        titleLable.text = observation?.title
+        descriptionLabel.text = observation?.description
+        
+        if let date = Observation?.date {
+            dateLabel.text = dateFormatter.string(from: date)        } else {
+            dateLabel.text = ""
+        }
     }
 
     override func didReceiveMemoryWarning() {
