@@ -16,5 +16,6 @@ class ObservationEventsJsonLoader {
         let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
           events = AnimalObservationsJSONParser.parse(data)
         }
+        return events
     }
 }
